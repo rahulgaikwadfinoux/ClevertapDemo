@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "894620625599",
+    "project_id": "testing-superapp",
+    "storage_bucket": "testing-superapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894620625599:android:6d85b8066373301e1e340a",
+        "android_client_info": {
+          "package_name": "com.newappscreens.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894620625599-3g737o9q4ibjga8q20sijbcbnq03umps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzARPEvjm7WHCZkGENOY-PZzDBwKBVpy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894620625599-3g737o9q4ibjga8q20sijbcbnq03umps.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "894620625599-2gr5dmfemc2ia4lfbgvicfjhd5gu16dc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mosl.supperfina.com"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894620625599:android:6b8ccac0a76b130d1e340a",
+        "android_client_info": {
+          "package_name": "mosl.superfina.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894620625599-3g737o9q4ibjga8q20sijbcbnq03umps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzARPEvjm7WHCZkGENOY-PZzDBwKBVpy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894620625599-3g737o9q4ibjga8q20sijbcbnq03umps.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "894620625599-2gr5dmfemc2ia4lfbgvicfjhd5gu16dc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mosl.supperfina.com"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894620625599:android:10c4eac6577bf6681e340a",
+        "android_client_info": {
+          "package_name": "mosl.supperfina.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894620625599-3g737o9q4ibjga8q20sijbcbnq03umps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzARPEvjm7WHCZkGENOY-PZzDBwKBVpy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894620625599-3g737o9q4ibjga8q20sijbcbnq03umps.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "894620625599-2gr5dmfemc2ia4lfbgvicfjhd5gu16dc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mosl.supperfina.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

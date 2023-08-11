@@ -1,0 +1,29 @@
+<svg width="40" height="80" viewBox="0 0 40 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_530_16311" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="80">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 80V0H40V80H0Z" fill="#FCAF17"/>
+</mask>
+<g mask="url(#mask0_530_16311)">
+<mask id="mask1_530_16311" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-4" y="-160" width="48" height="244">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M-3.85704 83.8719V-159.803H43.8571V83.8719H-3.85704Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_530_16311)">
+<path d="M-3.49997 7.33988L43.5 -55.3268" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 15.3399L43.5 -47.3268" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 23.3399L43.5 -39.3268" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 31.3399L43.5 -31.3268" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 39.3399L43.5 -23.3268" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 47.3399L43.5 -15.3268" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 55.3399L43.5 -7.32679" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 63.3399L43.5 0.673213" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 71.3399L43.5 8.67321" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 79.3399L43.5 16.6732" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 87.3399L43.5 24.6732" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 95.3399L43.5 32.6732" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 103.34L43.5 40.6732" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 111.34L43.5 48.6732" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 119.34L43.5 56.6732" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 127.34L43.5 64.6732" stroke="black" stroke-opacity="0.2"/>
+<path d="M-3.49997 135.34L43.5 72.6732" stroke="black" stroke-opacity="0.2"/>
+</g>
+</g>
+</svg>

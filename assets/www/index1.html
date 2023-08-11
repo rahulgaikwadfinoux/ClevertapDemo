@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>Area Candle</title>
+    <style>
+        .switcher {
+            display: flex;
+            align-items: center;
+            height: 30px;
+            margin-top: 8px;
+
+        }
+
+        .switcher-item {
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            padding: 6px 8px;
+            font-size: 12px;
+
+            background-color: transparent;
+            margin-right: 8px;
+            border-radius: 12px;
+            width: 40px;
+            height: 24px;
+            text-align: center;
+            background: #FFFFFF;
+            border: 1px solid #FCAF17;
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        .switcher-item:hover {
+            background-color: #f2f3f5;
+        }
+
+        .switcher-active-item {
+            text-decoration: none;
+            cursor: default;
+
+        }
+
+        .switcher-active-item,
+        .switcher-active-item:hover {
+
+            background-color: #FCAF17;
+        }
+    </style>
+</head>
+
+<body>
+<div id="tvchart"></div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+<!--    <button onclick="switchChart()">switch</button>-->
+<!--    <button onclick="getFiveMinsData()">5m</button>-->
+<!--    <button onclick="getFifteenMinsData()">15m</button>-->
+<!--    <button onclick="getThirtyMinsData()">30m</button>-->
+<script type="text/javascript">
+        function createSimpleSwitcher(items, activeItem, activeItemChangedCallback) {
+            var switcherElement = document.createElement('div');
+            switcherElement.classList.add('switcher');
+
+            var intervalElements = items.map(function (item) {
+                var itemEl = document.createElement('button');
+                itemEl.innerText = item;
+                itemEl.classList.add('switcher-item');
+                itemEl.classList.toggle('switcher-active-item', item === activeItem);
+                itemEl.addEventListener('click', function () {
+                    onItemClicked(item);
+                });
+                switcherElement.appendChild(itemEl);
+                return itemEl;
+            });
+
+            function onItemClicked(item) {
+                if (item === activeItem) {
+                    return;
+                }
+
+                intervalElements.forEach(function (element, index) {
+                    element.classList.toggle('switcher-active-item', items[index] === item);
+                });
+
+                activeItem = item;
+
+                activeItemChangedCallback(item);
+            }
+
+            return switcherElement;
+        }
+
+        var intervals = ['1m', '3m', '6m', '1y', '3y', '5y', 'max'];
+
+
+
+
+
+
+
+        var RealData = []
+        var threemRealData = []
+        var sixmRealData = []
+        var oneyRealData = []
+        var threeyRealData = []
+        var fiveyRealData = []
+        var maxRealData = []
+        // data.forEach(element => {
+        //     RealData.push({
+        //         time: element.nav_date,
+        //         value: element.nav
+        //     })
+        // });
+
+        //  userAction();
+        console.log("RealDataFata");
+        console.log(RealData);
+
+
+
+
+
+        var seriesesData = new Map([
+            ['1m', RealData],
+            ['3m', threemRealData],
+            ['6m', sixmRealData],
+            ['1y', oneyRealData],
+            ['3y', threeyRealData],
+            ['5y', fiveyRealData],
+            ['max', fiveyRealData],
+        ]);
+
+        var switcherElement = createSimpleSwitcher(intervals, intervals[0], syncToInterval);
+
+        var chartElement = document.createElement('div');
+
+        var chart = LightweightCharts.createChart(chartElement, {
+            width: window.innerWidth,
+            height: 200,
+            layout: {
+                backgroundColor: '#999999',
+                textColor: '#999999',
+            },
+
+            grid: {
+                vertLines: {
+                    visible: false,
+                },
+                horzLines: {
+                    visible: false,
+                },
+            },
+
+            rightPriceScale: {
+                borderVisible: true,
+                borderColor: "#999999"
+            },
+            timeScale: {
+                borderVisible: true,
+                borderColor: "#999999"
+
+            },
+            crosshair: {
+                horzLine: {
+                    visible: true,
+                },
+                vertLine: {
+                    visible: false,
+                },
+            },
+
+        });
+
+       // document.body.appendChild(switcherElement);
+        document.body.appendChild(chartElement);
+
+
+        var areaSeries = null;
+
+        function syncToInterval(interval) {
+            if (areaSeries) {
+                chart.removeSeries(areaSeries);
+                areaSeries = null;
+            }
+            areaSeries = chart.addAreaSeries({
+                topColor: 'rgba(256, 256, 256, 0.56)',
+                bottomColor: 'rgba(256, 256, 256, 0.04)',
+                lineColor: 'rgba(76, 175, 80, 1)',
+                lineWidth: 2,
+            });
+            areaSeries.setData(seriesesData.get(interval));
+        }
+        syncToInterval(intervals[0]);
+        const eraseData = () => {
+         console.log("i am in eraseData");
+           RealData=[]
+             syncToInterval(intervals[0]);
+        }
+
+        const userAction = (bod) => {
+
+            RealData = [];
+            console.log("bod is this");
+            console.log(bod);
+           RealData=[];
+            var counter = 0;
+            var sixm = 0;
+            var oney = 0;
+            var threey = 0;
+            var fivey = 0;
+            const revar = Object.values(bod.data)[0].reverse();
+            revar.forEach(element => {
+                counter++;
+                sixm++;
+                oney++;
+                threey++;
+                fivey++;
+                RealData.push({
+                    time: element.price_on_date,
+                    value: element.close_price
+                });
+                if (counter == 3) {
+                    counter = 0;
+                    threemRealData.push({
+                        time: element.price_on_date,
+                        value: element.close_price
+                    });
+                }
+                if (sixm == 6) {
+                    sixm = 0;
+                    sixmRealData.push({
+                        time: element.price_on_date,
+                        value: element.close_price
+                    });
+                }
+                if (oney == 12) {
+                    oney = 0;
+                    oneyRealData.push({
+                        time: element.price_on_date,
+                        value: element.close_price
+                    });
+                }
+                if (threey == 18) {
+                    threey = 0;
+                    threeyRealData.push({
+                        time: element.price_on_date,
+                        value: element.close_price
+                    });
+                }
+                if (fivey == 24) {
+                    fivey = 0;
+                    fiveyRealData.push({
+                        time: element.price_on_date,
+                        value: element.close_price
+                    });
+                }
+            });
+
+            console.log(RealData[0].time);
+            console.log(RealData[0].value);
+            seriesesData.set('1m', RealData);
+            syncToInterval(intervals[0]);
+
+
+        }
+
+
+
+
+
+    </script>
+</body></head>
+
+</html>

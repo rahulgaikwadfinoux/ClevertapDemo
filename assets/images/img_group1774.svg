@@ -1,0 +1,22 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_530_16715" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="140" height="140">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 70C0 31.3401 31.3401 0 70 0C108.66 0 140 31.3401 140 70C140 108.66 108.66 140 70 140C31.3401 140 0 108.66 0 70Z" fill="#524FA2"/>
+</mask>
+<g mask="url(#mask0_530_16715)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 70C0 31.3401 31.3401 0 70 0C108.66 0 140 31.3401 140 70C140 108.66 108.66 140 70 140C31.3401 140 0 108.66 0 70Z" fill="#524FA2"/>
+<mask id="mask1_530_16715" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-23" y="-20" width="201" height="173">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M122.964 -19.412L177.95 91.8807L67.5217 69.7567L102.099 152.492L-11.869 132.878L-22.3179 7.04183L122.964 -19.412Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_530_16715)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M85.6353 -17.3297C138.622 -17.3297 181.577 25.6248 181.577 78.6118C181.577 131.599 138.622 174.553 85.6353 174.553C32.6482 174.553 -10.3062 131.599 -10.3062 78.6118C-10.3062 25.6248 32.6482 -17.3297 85.6353 -17.3297Z" fill="#48B7AA"/>
+</g>
+<mask id="mask2_530_16715" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-23" y="7" width="126" height="155">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.62562 161.2L67.5232 69.7543L102.101 152.491L-11.8688 132.877L-22.3179 7.03813L6.62562 161.2Z" fill="white"/>
+</mask>
+<g mask="url(#mask2_530_16715)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M85.6353 -17.3297C138.622 -17.3297 181.577 25.6248 181.577 78.6118C181.577 131.599 138.622 174.553 85.6353 174.553C32.6482 174.553 -10.3062 131.599 -10.3062 78.6118C-10.3062 25.6248 32.6482 -17.3297 85.6353 -17.3297Z" fill="#E67340"/>
+</g>
+<path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M39 70C39 52.8792 52.8792 39 70 39C87.1208 39 101 52.8792 101 70C101 87.1208 87.1208 101 70 101C52.8792 101 39 87.1208 39 70Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M48 70C48 57.8497 57.8497 48 70 48C82.1503 48 92 57.8497 92 70C92 82.1503 82.1503 92 70 92C57.8497 92 48 82.1503 48 70Z" fill="white"/>
+</g>
+</svg>

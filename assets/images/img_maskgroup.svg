@@ -1,0 +1,44 @@
+<svg width="40" height="140" viewBox="0 0 40 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_530_33519" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-5" y="-281" width="48" height="422">
+<mask id="mask1_530_33519" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-6" y="-282" width="49" height="423">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M-5.00352 140.807V-281.001H42.7107V140.807H-5.00352Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_530_33519)">
+<path d="M-4.64639 0.355705L42.3536 -46.6443" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 6.35571L42.3536 -40.6443" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 12.3557L42.3536 -34.6443" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 18.3557L42.3536 -28.6443" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 24.3557L42.3536 -22.6443" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 30.3557L42.3536 -16.6443" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 36.3557L42.3536 -10.6443" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 42.3557L42.3536 -4.64429" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 48.3557L42.3536 1.35571" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 54.3557L42.3536 7.35571" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 60.3557L42.3536 13.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 66.3557L42.3536 19.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 72.3557L42.3536 25.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 78.3557L42.3536 31.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 84.3557L42.3536 37.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 90.3557L42.3536 43.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 96.3557L42.3536 49.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 102.356L42.3536 55.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 108.356L42.3536 61.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 114.356L42.3536 67.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 120.356L42.3536 73.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 126.356L42.3536 79.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 132.356L42.3536 85.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 138.356L42.3536 91.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 144.356L42.3536 97.3557" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 150.356L42.3536 103.356" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 156.356L42.3536 109.356" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 162.356L42.3536 115.356" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 168.356L42.3536 121.356" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 174.356L42.3536 127.356" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 180.356L42.3536 133.356" stroke="black" stroke-opacity="0.2"/>
+<path d="M-4.64639 186.356L42.3536 139.356" stroke="black" stroke-opacity="0.2"/>
+</g>
+</mask>
+<g mask="url(#mask0_530_33519)">
+<rect width="40" height="140" fill="#D9D9D9"/>
+</g>
+</svg>
